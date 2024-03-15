@@ -1,0 +1,5 @@
+0 Pointer
+1 Afghan hound
+2 American hound
+3 Bull Terrier
+4 German Sheperd

@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity implements ImageReader.OnIma
 
         //TODO inialize classifier class
         try {
-            classifier = new Classifier(getAssets(),"mobilenet_v1_1.0_224.tflite","mobilenet_v1_1.0_224.txt",224);
+            classifier = new Classifier(getAssets(),"model_unquant.tflite","labels.txt",224);
         } catch (IOException e) {
             e.printStackTrace();
         }
